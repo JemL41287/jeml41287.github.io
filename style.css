@@ -56,3 +56,19 @@ a:hover {
     height: 80px;
     letter-spacing: 0.1em;
 }
+
+.about-me {
+    background-color: #F4F1F7;
+    color: #21044F;
+    text-align: center;
+    font-size: 40px;
+}
+
+.bio {
+    font-size: 18px;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
