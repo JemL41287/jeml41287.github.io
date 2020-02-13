@@ -1,0 +1,42 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#main-navbar {
+    background-color: #21044F;
+    border-bottom: 5px solid #B8ABFA;
+}
+
+i,
+a {
+    color: #F4F1F7;
+}
+
+i:hover,
+a:hover {
+    color: #B8ABFA;
+}
+
+#jumbotron-text {
+    text-align: center;
+    color: #F4F1F7;
+    letter-spacing: 0.3em;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.card-img {
+    opacity: 40%;
+}
+
+#main-text {
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+.horizontal-line {
+    border-top: 3px solid #B8ABFA;
+    width: 20%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
