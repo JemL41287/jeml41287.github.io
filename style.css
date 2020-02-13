@@ -15,6 +15,7 @@ a {
 i:hover,
 a:hover {
     color: #B8ABFA;
+    text-decoration: none;
 }
 
 #jumbotron-text {
@@ -39,6 +40,12 @@ a:hover {
     width: 20%;
     margin: 0 auto;
     padding-bottom: 30px;
+}
+
+#repo-button {
+    background-color:#21044F;
+    color: #F4F1F7;
+    border-color: #B8ABFA;
 }
 
 .sticky-footer {
