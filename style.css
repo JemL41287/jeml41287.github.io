@@ -4,7 +4,7 @@ body {
 
 #main-navbar {
     background-color: #21044F;
-    border-bottom: 5px solid #B8ABFA;
+    border-bottom: 6px solid #B8ABFA;
 }
 
 i,
@@ -39,4 +39,13 @@ a:hover {
     width: 20%;
     margin: 0 auto;
     padding-bottom: 30px;
+}
+
+.sticky-footer {
+    text-align: center;
+    background-color: #21044F;
+    color: #F4F1F7;
+    border-top: 6px solid #B8ABFA;
+    height: 80px;
+    letter-spacing: 0.1em;
 }
