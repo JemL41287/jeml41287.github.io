@@ -57,11 +57,14 @@ a:hover {
     letter-spacing: 0.1em;
 }
 
+h3 {
+    font-size: 30px;
+}
+
 .about-me {
     background-color: #F4F1F7;
     color: #21044F;
     text-align: center;
-    font-size: 40px;
 }
 
 .bio {
@@ -71,4 +74,17 @@ a:hover {
     padding-right: 15px;
     padding-left: 15px;
 
+}
+
+.skills {
+    background-color: #21044F;
+    color:#F4F1F7;
+    text-align: center;
+}
+
+.icon-html5, 
+.icon-css3-alt,
+.icon-javascript-alt,
+.icon-nodejs {
+  color: #B8ABFA;
 }
