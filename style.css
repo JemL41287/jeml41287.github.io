@@ -61,7 +61,8 @@ h3 {
     font-size: 30px;
 }
 
-.about-me {
+.about-me,
+.highlights {
     background-color: #F4F1F7;
     color: #21044F;
     text-align: center;
@@ -87,4 +88,26 @@ h3 {
 .icon-javascript-alt,
 .icon-nodejs {
   color: #B8ABFA;
+}
+
+.project-list {
+    padding-bottom: 30px;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-right: 15px;
+    padding-right: 15px;
+}
+
+.project-underline {
+    position: absolute;
+    top: 23%;
+    left: 40%;
+    border-top: 3px solid #B8ABFA;
+    width: 20%;
+}
+
+.caption {
+    color: #F4F1F7;
+    background-color: #21044F;
+    padding: 10px;
 }
