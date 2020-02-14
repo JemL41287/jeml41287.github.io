@@ -92,22 +92,17 @@ h3 {
 
 .project-list {
     padding-bottom: 30px;
-    margin-right: 20%;
-    margin-left: 20%;
     padding-right: 15px;
     padding-right: 15px;
-}
+    margin-right: 10%;
+    margin-left: 10%;
 
-.project-underline {
-    position: absolute;
-    top: 23%;
-    left: 40%;
-    border-top: 3px solid #B8ABFA;
-    width: 20%;
+
 }
 
 .caption {
     color: #F4F1F7;
     background-color: #21044F;
     padding: 10px;
+    margin-top: 20%;
 }
