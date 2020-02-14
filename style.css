@@ -97,12 +97,29 @@ h3 {
     margin-right: 10%;
     margin-left: 10%;
 
-
 }
 
 .caption {
     color: #F4F1F7;
     background-color: #21044F;
     padding: 10px;
-    margin-top: 20%;
 }
+
+h5 {
+    color: #B8ABFA;
+}
+
+img {
+    padding: 1px;
+    border: 1px solid #B8ABFA;
+}
+
+.fa-angle-left {
+    color: #21044F;
+}
+
+.fa-angle-right {
+    color: #21044F;
+}
+
+
