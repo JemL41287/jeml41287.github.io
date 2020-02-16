@@ -23,6 +23,9 @@ a:hover {
     color: #F4F1F7;
     letter-spacing: 0.3em;
     font-size: 60px;
+}
+
+h1 {
     font-weight: bold;
 }
 
@@ -30,9 +33,12 @@ a:hover {
     opacity: 40%;
 }
 
+
 #main-text {
     text-align: center;
     letter-spacing: 0.1em;
+    font-size: 35px;
+    color: #F4F1F7
 }
 
 .horizontal-line {
@@ -42,10 +48,12 @@ a:hover {
     padding-bottom: 30px;
 }
 
-#repo-button {
+#repo-button,
+#resume-button {
     background-color:#21044F;
     color: #F4F1F7;
     border-color: #B8ABFA;
+    font-size: 20px;
 }
 
 .sticky-footer {
@@ -58,11 +66,13 @@ a:hover {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 35px;
+    font-weight: bold;
 }
 
 .about-me,
-.highlights {
+.highlights,
+.resume {
     background-color: #F4F1F7;
     color: #21044F;
     text-align: center;
@@ -122,4 +132,37 @@ img {
     color: #21044F;
 }
 
+@media (min-width: 0px) and (max-width: 711px) {
+    #jumbotron-text {
+        font-size: 30px;
+    }
+}
 
+@media (min-width: 0px) and (max-width: 711px) {
+    #main-text {
+        font-size: 20px;
+    }
+}
+
+
+@media (min-width: 0px) and (max-width: 715px) {
+    .project-list {
+        width: auto;
+    }
+    .caption {
+        font-size: 10px;
+        height: auto;
+        width: auto;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 500px) {
+    .project-list {
+        width: auto;
+    }
+    .caption {
+        font-size: 5px;
+        height: auto;
+        width: auto;
+    }
+}
