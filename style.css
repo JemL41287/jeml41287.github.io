@@ -132,9 +132,10 @@ img {
     color: #21044F;
 }
 
+
 @media (min-width: 0px) and (max-width: 711px) {
     #jumbotron-text {
-        font-size: 30px;
+        font-size: 35px;
     }
 }
 
