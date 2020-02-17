@@ -136,12 +136,14 @@ img {
 @media (min-width: 0px) and (max-width: 711px) {
     #jumbotron-text {
         font-size: 35px;
+        font-weight: bold;
     }
 }
 
 @media (min-width: 0px) and (max-width: 711px) {
     #main-text {
         font-size: 20px;
+        font-weight: bold;
     }
 }
 
