@@ -1,3 +1,3 @@
 # Jennifer Mullin
 
-## Jennifer Mullin's Portfolio
+Jennifer Mullin's Portfolio
