@@ -30,7 +30,7 @@ h1 {
 }
 
 .card-img {
-    opacity: 40%;
+    opacity: 30%;
 }
 
 
@@ -145,6 +145,13 @@ img {
     }
 }
 
+@media (min-width: 0px) and (max-width: 711px) {
+    .bio{
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+}
+
 
 @media (min-width: 0px) and (max-width: 715px) {
     .project-list {
@@ -165,5 +172,11 @@ img {
         font-size: 5px;
         height: auto;
         width: auto;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 500px) {
+    .carousel-caption {
+        padding-bottom: 0px;
     }
 }
