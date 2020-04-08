@@ -61,7 +61,7 @@ h1 {
     background-color: #21044F;
     color: #F4F1F7;
     border-top: 6px solid #B8ABFA;
-    height: 80px;
+    height: 120px;
     letter-spacing: 0.1em;
 }
 
@@ -131,6 +131,7 @@ img {
 .fa-angle-right {
     color: #21044F;
 }
+
 
 
 @media (min-width: 0px) and (max-width: 711px) {
