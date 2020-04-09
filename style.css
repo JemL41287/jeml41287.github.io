@@ -18,6 +18,11 @@ a:hover {
     text-decoration: none;
 }
 
+.nav-item {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 #jumbotron-text {
     text-align: center;
     color: #F4F1F7;
@@ -61,7 +66,7 @@ h1 {
     background-color: #21044F;
     color: #F4F1F7;
     border-top: 6px solid #B8ABFA;
-    height: 120px;
+    height: 90px;
     letter-spacing: 0.1em;
 }
 
@@ -70,7 +75,7 @@ h3 {
     font-weight: bold;
 }
 
-.about-me,
+.aboutme,
 .highlights,
 .resume {
     background-color: #F4F1F7;
@@ -91,12 +96,13 @@ h3 {
     background-color: #21044F;
     color:#F4F1F7;
     text-align: center;
+    height: 400px;
 }
 
 .icon-html5, 
-.icon-css3-alt,
 .icon-javascript-alt,
-.icon-nodejs {
+.icon-nodejs,
+.icon-database {
   color: #B8ABFA;
 }
 

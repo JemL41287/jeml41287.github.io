@@ -14,6 +14,10 @@
 
     <script src="https://kit.fontawesome.com/8eda10df1b.js" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <script src="https://cdn.boomcdn.com/libs/wow-js/1.3.0/wow.js"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css">
 
     <link rel="stylesheet" href="style.css">
@@ -21,26 +25,62 @@
     <title>Jennifer Mullin</title>
 </head>
 
-<body>
-    <nav class="navbar navbar-light sticky-top justify-content-end" id="main-navbar"></nav>
+
+<body data-spy="scroll" data-target="#main-navbar" data-offset="105">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" id="main-navbar">
+        <div class="nav-icons p-3 mr wow fadeIn">
+            <a class="navbar-brand" href="https://github.com/jeml41287" target="_blank">
+                <i class="fab fa-github-square fa-2x"></i>
+            </a>
+            <a class="navbar-brand" href="https://www.linkedin.com/in/jennifer-mullin-992b0b91/" target="_blank">
+                <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+
+            <a class="navbar-brand" href="mailto:jennifer.lindsey.mullin@gmail.com">
+                <i class="far fa-envelope fa-2x"></i>
+            </a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="scroll-text collapse navbar-collapse justify-content-end wow fadeIn" id="navbarSupportedContent">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#bio">about</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#highlights">highlights</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <div class="card bg-dark text-white">
-        <img src="assets/portfoliobanner.jpeg" class="card-img" alt="..." height="550px">
+        <img src="assets/portfoliobanner.jpeg" class="card-img" alt="..." height="600px">
 
 
         <div class="card-img-overlay">
             <br>
             <br>
-            <h1 class="card-title p-3" id="jumbotron-text">jennifer mullin</h1>
+            <h1 class="card-title p-3 wow fadeIn" id="jumbotron-text">jennifer mullin</h1>
             <div class="horizontal-line"></div>
-            <h2 class="card-text p3" id="main-text">
+            <h2 class="card-text p3 wow fadeIn delay-1s" id="main-text">
                 full-stack web developer with a passion for creativity and knowledge.
             </h2>
             <br>
             <br>
             <br>
             <div class="text-center">
-                <button class="btn btn-primary btn-lg" id="repo-button">
+                <button class="btn btn-primary btn-lg wow fadeIn delay-1s" id="repo-button">
                     <a href="https://github.com/JemL41287">view my work</a></button>
 
             </div>
@@ -48,11 +88,11 @@
 
     </div>
 
-    <div class="wrapper">
-        <div class="about-me">
-            <h3 class="pt-4">about me</h3>
+    <div class="wrapper" id="bio">
+        <div class="aboutme">
+            <h3 class="pt-4 wow bounceInUp">about me</h3>
             <div class="horizontal-line"></div>
-            <div class="bio">
+            <div class="bio wow fadeIn delay-1s">
                 Hi! I'm Jen. I began my journey in full-stack web development
                 at the University of Denver's Coding Bootcamp in Denver, Colorado.
                 To date, I have experience in HTML5, CSS, JavaScript, Jquery, APIs
@@ -75,25 +115,32 @@
         </div>
     </div>
 
+
+
     <div class="wrapper">
         <div class="skills">
-            <h3 class="pt-4">my skills</h3>
+            <h3 class="pt-4 wow bounceInUp">my skills</h3>
             <div class="horizontal-line"></div>
             <div class="skills-list">
-                <div class="row">
-                    <div class="col md-3">
+                <div class="row" id="icon-row">
+                    <div class="col md-3 wow flipInX delay-1s">
                         <i class="icon-html5 fa-3x"></i><br>
                         Developing modern UI with mobile-first responsive design through
                         HTML, CSS frameworks and Media Queries.
                     </div>
-                    <div class="col md-3">
+                    <div class="col md-3 wow flipInX delay-2s">
                         <i class="icon-javascript-alt fa-3x"></i><br>
                         Writing client-side jQuery for interactivity and server-side
                         JavaScript to solve problems.
                     </div>
-                    <div class="col md-3">
+                    <div class="col md-3 wow flipInX delay-3s">
                         <i class="icon-nodejs fa-3x"></i><br>
                         Creating dynamic, asynchronous web applications through NodeJS.
+                    </div>
+                    <div class="col md-3 wow flipInX delay-4s">
+                        <i class="icon-database fa-3x"></i><br>
+                        Storing, retrieving, and connecting servers to databases such as
+                        mySQL and MongoDB to perform queries.
                     </div>
                 </div>
                 <br>
@@ -104,10 +151,10 @@
 
     <div class="wrapper">
         <div class="highlights">
-            <h3 class="pt-4">highlights</h3>
+            <h3 class="pt-4 wow bounceInUp">highlights</h3>
             <div class="horizontal-line"></div>
             <div class="project-list">
-                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <!-- <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -182,17 +229,17 @@
                         <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
                         <span class="sr-only">Next</span>
                     </a>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
 
     <div class="wrapper">
         <div class="resume">
-            <h3 class="pt-4">get in touch</h3>
+            <h3 class="pt-4 wow bounceInUp">get in touch</h3>
             <div class="horizontal-line"></div>
             <a class="navbar-brand" href="/assets/mullinresume.pdf" target="_blank">
-                <button type="button" class="btn btn-outline btn-lg" id="resume-button">
+                <button type="button" class="btn btn-outline btn-lg wow rubberBand delay-1s" id="resume-button">
                     download my resume
                 </button></a>
             <br>
@@ -203,21 +250,11 @@
 
     </div>
 
-    <nav class="navbar-bottom sticky-footer">
-        <div class="nav-icons p-3 mr">
-            <a class="navbar-brand" href="https://github.com/jeml41287" target="_blank">
-                <i class="fab fa-github-square fa-2x"></i>
-            </a>
-            <a class="navbar-brand" href="https://www.linkedin.com/in/jennifer-mullin-992b0b91/" target="_blank">
-                <i class="fab fa-linkedin fa-2x"></i>
-            </a>
-            <a class="navbar-brand" href="mailto:jennifer.lindsey.mullin@gmail.com">
-                <i class="far fa-envelope fa-2x"></i>
-            </a>
-        </div>
+    <div class="navbar-bottom sticky-footer">
+        <br>
         jennifer mullin © 2020
         <br>
-    </nav>
+    </div>
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -226,6 +263,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
 </body>
 
 </html>
