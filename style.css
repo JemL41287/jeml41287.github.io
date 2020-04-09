@@ -18,6 +18,7 @@ a:hover {
     text-decoration: none;
 }
 
+
 .nav-item {
     font-size: 20px;
     font-weight: bold;
@@ -53,12 +54,17 @@ h1 {
     padding-bottom: 30px;
 }
 
-#repo-button,
-#resume-button {
+.btn {
     background-color:#21044F;
     color: #F4F1F7;
     border-color: #B8ABFA;
     font-size: 25px;
+}
+
+.btn:hover {
+    background-color: #21044F;
+    color: #B8ABFA;
+    border-color: #B8ABFA;
 }
 
 .sticky-footer {
