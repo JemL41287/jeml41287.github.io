@@ -47,19 +47,11 @@
         </button>
 
         <div class="scroll-text collapse navbar-collapse justify-content-end wow fadeIn" id="navbarSupportedContent">
-            <ul class="nav">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#bio">about</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#skills">skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#highlights">highlights</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">contact</a>
-                </li>
+            <ul id="nav">
+                <li><a href="#bio" class="slide-section">about</a></li>
+                <li><a href="#skills" class="slide-section">skills</a></li>
+                <li><a href="#highlights" class="slide-section">highlights</a></li>
+                <li><a href="#contact" class="slide-section">contact</a></li>
             </ul>
         </div>
     </nav>
@@ -117,7 +109,7 @@
 
 
 
-    <div class="wrapper">
+    <div class="wrapper" id="skills">
         <div class="skills">
             <br><br>
             <h3 class="pt-4 wow bounceInUp">my skills</h3>
@@ -150,13 +142,13 @@
         </div>
     </div>
 
-    <div class="wrapper">
+    <div class="wrapper" id="highlights">
         <div class="highlights">
             <br><br>
             <h3 class="pt-4 wow bounceInUp">highlights</h3>
             <div class="horizontal-line"></div>
             <div class="project-list">
-                <div class="row">
+                <div class="row" id="card-row">
                     <div class="col-md-4">
                         <div class="flip-card wow bounceInUp">
                             <div class="flip-card-inner">
@@ -204,7 +196,7 @@
                     </div>
                 </div>
                 <br><br>
-                <div class="row">
+                <div class="row" id="card-row">
                     <div class="col-md-4">
                         <div class="flip-card wow bounceInUp">
                             <div class="flip-card-inner">
@@ -251,88 +243,11 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active text-center">
-                            <a href="https://tomatoma891.github.io/Project-1/" target="_blank">
-                                <img src="assets/landingpage.png" class="d-block w-100" alt="Your City Guide"></a>
-                            <div class="carousel-caption">
-                                <div class="caption">
-                                    <h5>Your City Guide</h5>
-                                    <p>Your City Guide is an application that assists the user with finding events
-                                        and dining relevant to their location or the city selected. Once the user
-                                        selects a city,
-                                        they're able to filter events based on genre and select an option to add dining
-                                        and
-                                        make a reservation at a restaurant near that event.
-                                    </p>
-                                    <p>technology: HTML, CSS, Materialize, Javascript, JQuery, API requests <br>
-                                        github repo: <a href="https://github.com/JemL41287/Project-1">click here</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item text-center">
-                            <a href="https://jeml41287.github.io/Weather-Dashboard/" target="_blank">
-                                <img src="assets/weather_dashboard.png" class="d-block w-100"
-                                    alt="Weather Dashboard"></a>
-                            <div class="carousel-caption">
-                                <div class="caption">
-                                    <h5>Weather Dashboard</h5>
-                                    <p>Weather Dashboard is an application with search functionality to find current
-                                        weather conditions and the future weather outlook for multiple cities. This app
-                                        runs in the browser and features dynamically updated HTML and CSS powered by
-                                        jQuery.
-                                    </p>
-                                    <p>technology: HTML, CSS, Bootstrap, JavaScript, jQuery, Moment.js, OpenWeather API
-                                        <br>
-                                        github repo: <a href="https://github.com/JemL41287/Weather-Dashboard">click
-                                            here</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item text-center">
-                            <a href="https://jeml41287.github.io/Password-Generator/" target="_blank">
-                                <img src="assets/password_generator.png" class="d-block w-100"
-                                    alt="Password Generator"></a>
-                            <div class="carousel-caption">
-                                <div class="caption">
-                                    <h5>Password Generator</h5>
-                                    <p>Password Generator is an application which generates a random password based on
-                                        user-selected
-                                        criteria. This app runs in the browser and features dynamically updated HTML and
-                                        CSS powered
-                                        by JavaScript code.
-                                    </p>
-                                    <p>technology: HTML, CSS, Bootstrap, JavaScript <br>
-                                        github repo: <a href="https://github.com/JemL41287/Password-Generator">click
-                                            here</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                        <span><i class="fa fa-angle-left" aria-hidden="true"></i></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                        <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div> -->
             </div>
         </div>
     </div>
 
-    <div class="wrapper">
+    <div class="wrapper" id="contact">
         <div class="resume">
             <br><br>
             <h3 class="pt-4 wow bounceInUp">get in touch</h3>
@@ -356,9 +271,9 @@
     </div>
 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>

@@ -18,11 +18,38 @@ a:hover {
     text-decoration: none;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
 
-.nav-item {
-    font-size: 20px;
+.slide-section {
+    font-size: 18px;
     font-weight: bold;
 }
+
+.navbar-toggler {
+    background-color: #F4F1F7;
+}
+  
+.navbar-toggler:hover {
+    background-color: #B8ABFA;
+}
+
 
 #jumbotron-text {
     text-align: center;
@@ -113,11 +140,8 @@ h3 {
 }
 
 .project-list {
-    padding-bottom: 30px;
-    padding-right: 15px;
-    padding-right: 15px;
     margin-right: 10%;
-    margin-left: 10%;
+    margin-left: 10%
 
 }
 
@@ -195,31 +219,41 @@ img {
     }
 }
 
-
-@media (min-width: 0px) and (max-width: 715px) {
-    .project-list {
-        width: auto;
+@media (max-width: 768px) {
+    #icon-row {
+      display: grid;
     }
-    .caption {
-        font-size: 10px;
+
+    .skills {
         height: auto;
-        width: auto;
     }
+
 }
 
-@media (min-width: 0px) and (max-width: 500px) {
-    .project-list {
-        width: auto;
+@media (max-width: 576px) {
+    #icon-row {
+      display: grid;
     }
-    .caption {
-        font-size: 5px;
+
+    .skills {
         height: auto;
-        width: auto;
     }
+
 }
 
-@media (min-width: 0px) and (max-width: 500px) {
-    .carousel-caption {
-        padding-bottom: 0px;
+
+
+@media (max-width: 1140px) {
+    .project-list {
+        margin-right: 30%;
+        margin-left: 30%;
     }
+    #card-row {
+        display: grid;
+        grid-gap: 1rem;
+
+    }
+    
 }
+
+
