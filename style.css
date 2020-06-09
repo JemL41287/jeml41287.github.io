@@ -181,7 +181,6 @@ h3 {
   
 .flip-card-back {
     background-color: #21044F;
-    /* color: #21044F; */
     transform: rotateY(180deg);
 }
 
@@ -194,8 +193,6 @@ h5 {
 img {
     object-fit: cover;
 }
-
-
 
 
 @media (min-width: 0px) and (max-width: 711px) {
@@ -244,15 +241,16 @@ img {
 
 
 @media (max-width: 1140px) {
-    .project-list {
-        margin-right: 30%;
-        margin-left: 30%;
-    }
     #card-row {
         display: grid;
         grid-gap: 1rem;
-
     }
+
+    img {
+        object-fit: cover;
+    }
+
+
     
 }
 
